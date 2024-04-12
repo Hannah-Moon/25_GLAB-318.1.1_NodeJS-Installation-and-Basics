@@ -17,7 +17,9 @@ NodeJS (or simply Node) is a very popular JavaScript runtime that enables develo
 - Create a package file.
 - Install packages.
 - Run a program.
+  
 ## Summary of lesson
+#### (Instructional code was written by an instructor) 
 
 ```rb
 // Node 
