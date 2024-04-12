@@ -1,0 +1,22 @@
+{
+  "name": "glab318_1_1",
+  "version": "1.0.0",
+  "description": "apr_2024_nodejs_assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hannah-Moon/25_GLAB-318.1.1_NodeJS-Installation-and-Basics.git"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Hannah Moon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hannah-Moon/25_GLAB-318.1.1_NodeJS-Installation-and-Basics/issues"
+  },
+  "homepage": "https://github.com/Hannah-Moon/25_GLAB-318.1.1_NodeJS-Installation-and-Basics#readme"
+}
