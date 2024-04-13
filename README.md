@@ -29,6 +29,8 @@ NodeJS (or simply Node) is a very popular JavaScript runtime that enables develo
 // c) change "start" script in package.json to use nodemon
 //  "start": "nodemon whateverFile.js"
 // d) open a main file (server.js ) ----vvvvvvv-------
+// e) open two terminals
+// f) npm start ----> monitor realtime update 
 
 // ---------------------------------[Setup]
 
