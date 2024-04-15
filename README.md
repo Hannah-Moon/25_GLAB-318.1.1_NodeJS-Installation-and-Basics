@@ -29,7 +29,7 @@ NodeJS (or simply Node) is a very popular JavaScript runtime that enables develo
 //mac: [sudo npm i whateverDepName]
 // c) change "start" script in package.json to use nodemon
 //  "start": "nodemon whateverFile.js"
-// d) open a main file (server.js ) ----vvvvvvv-------
+// d) create & open a main file (server.js ) ----> touch ....
 // e) open two terminals
 // f) npm start ----> monitor realtime update 
 
