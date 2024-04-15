@@ -22,9 +22,19 @@ NodeJS (or simply Node) is a very popular JavaScript runtime that enables develo
 #### (Guiding instructional code was written by an instructor and I revised with my personal note.) 
 
 ```rb
+
+
+To get started, create a new project directory for this activity. We will call ours:
+
+express-rest-example
+
+
+Once created, go through the steps to configure the project:
+
+Create an index.js file, and let's get started!
 // ---------------------------------[Pre-steps]
-// a) npm init -y    ----> package.json*
-// b) npm i express {{dependencyName }} ----> package.LOCK.json* && node_modules
+// a) npm init -y    ----> package.json* y=yes
+// b) npm i express {{dependencyName }} ----> package.LOCK.json* && node_modules --> We are installing express package. (npm i nodemon --save-dev)
 // if()--> dependency != installed:
 //mac: [sudo npm i whateverDepName]
 // c) change "start" script in package.json to use nodemon
