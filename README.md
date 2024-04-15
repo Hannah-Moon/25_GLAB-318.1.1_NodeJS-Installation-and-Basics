@@ -24,7 +24,7 @@ NodeJS (or simply Node) is a very popular JavaScript runtime that enables develo
 ```rb
 // ---------------------------------[Pre-steps]
 // a) npm init -y    ----> package.json*
-// b) npm i {{dependencyName }} ----> package.LOCK.json* && node_modules
+// b) npm i express {{dependencyName }} ----> package.LOCK.json* && node_modules
 // if()--> dependency != installed:
 //mac: [sudo npm i whateverDepName]
 // c) change "start" script in package.json to use nodemon
