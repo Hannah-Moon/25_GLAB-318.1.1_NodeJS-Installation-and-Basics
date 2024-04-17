@@ -24,24 +24,21 @@ NodeJS (or simply Node) is a very popular JavaScript runtime that enables develo
 ```rb
 
 
-To get started, create a new project directory for this activity. We will call ours:
-
-express-rest-example
-
-
-Once created, go through the steps to configure the project:
-
-Create an index.js file, and let's get started!
 // ---------------------------------[Pre-steps]
 
-a) npm init -y            : package.json* y=yes
-b) npm install express    : {{dependencyName }} ----> package.LOCK.json* && node_modules --> We are installing express package. (npm i nodemon --save-dev)
-b-1) npm install ejs      : Optional - Intall template
-npm install request
-c) change "start" script in package.json to use nodemon: "start": "nodemon whateverFile.js"
-d) create & open a main file (server.js ): touch ....
-e) open two terminals
-f) npm start              : monitor realtime update 
+ → npm init -y          # Initialize express project
+ → npm install express  # Install express module (always) 
+ → change "start" script in package.json to use nodemon: "start": "nodemon whateverFile.js"
+ → create & open a main file (server.js ): touch 
+ → open two terminals
+ → npm start            # monitor realtime update 
+
+// ---------------------------------[ejs template]
+ → npm install ejs      # ejs 모듈 설치
+ → mkdir views          # 동적 화면 제공(*.ejs)
+ → mkdir routes         # 클라이언트 요청에 대한 라우팅
+ → mkdir public         # 정적 파일 제공(*.html, *.css, *.js)
+
 
 // ---------------------------------[Setup]
 
