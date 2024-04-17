@@ -33,15 +33,15 @@ Once created, go through the steps to configure the project:
 
 Create an index.js file, and let's get started!
 // ---------------------------------[Pre-steps]
-// a) npm init -y    ----> package.json* y=yes
-// b) npm i express {{dependencyName }} ----> package.LOCK.json* && node_modules --> We are installing express package. (npm i nodemon --save-dev)
-// if()--> dependency != installed:
-//mac: [sudo npm i whateverDepName]
-// c) change "start" script in package.json to use nodemon
-//  "start": "nodemon whateverFile.js"
-// d) create & open a main file (server.js ) ----> touch ....
-// e) open two terminals
-// f) npm start ----> monitor realtime update 
+
+a) npm init -y            : package.json* y=yes
+b) npm install express    : {{dependencyName }} ----> package.LOCK.json* && node_modules --> We are installing express package. (npm i nodemon --save-dev)
+b-1) npm install ejs      : Optional - Intall template
+npm install request
+c) change "start" script in package.json to use nodemon: "start": "nodemon whateverFile.js"
+d) create & open a main file (server.js ): touch ....
+e) open two terminals
+f) npm start              : monitor realtime update 
 
 // ---------------------------------[Setup]
 
