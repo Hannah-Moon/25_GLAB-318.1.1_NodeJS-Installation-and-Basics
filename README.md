@@ -34,10 +34,10 @@ NodeJS (or simply Node) is a very popular JavaScript runtime that enables develo
  → npm start            # monitor realtime update 
 
 // ---------------------------------[ejs template]
- → npm install ejs      # ejs 모듈 설치
- → mkdir views          # 동적 화면 제공(*.ejs)
- → mkdir routes         # 클라이언트 요청에 대한 라우팅
- → mkdir public         # 정적 파일 제공(*.html, *.css, *.js)
+ → npm install ejs      # install ijs module
+ → mkdir views          # create dir for (*.ejs)
+ → mkdir routes         # routing folder for client request
+ → mkdir public         # plubic folder for (*.html, *.css, *.js)
 
 
 // ---------------------------------[Setup]
