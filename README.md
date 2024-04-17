@@ -45,7 +45,7 @@ NodeJS (or simply Node) is a very popular JavaScript runtime that enables develo
 // --> (?) THE BIG 3 ------- runningTheServer
 // 1. use require statements to import all of the needed depend/libs for the app.
 const express = require("express");
-const bodyParser = require('body-parser');
+const bodyParser = require('body-parser');     # Optional - We use this when we have a lot of data. 
 const PORT = process.env.PORT || "3000";
 const app = express();
 // 2. initializing express to run
