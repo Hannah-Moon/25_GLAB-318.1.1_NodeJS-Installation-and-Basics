@@ -25,9 +25,14 @@ NodeJS (or simply Node) is a very popular JavaScript runtime that enables develo
 // ---------------------------------[Pre-steps]
 
  → npm init -y          # Initialize express project
- → npm install express  # Install express module (always) 
- → change "start" script in package.json to use nodemon: "start": "nodemon whateverFile.js"
- → create & open a main file (server.js ): touch 
+ → npm install express  # Install express module (always)
+ → create & open a main file (index.js ): touch 
+
+ → npm i -D nodemom     # Install nodemon (Use this for only development. Not for the production.
+
+ → change "start" script in package.json: "start": "node index"  # Keep resetting the server every time I make changes.
+ → change "start" script in package.json: "dev": "nodemon index" # consistently watch it.
+
  → open two terminals
  → npm start            # monitor realtime update 
 
