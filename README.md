@@ -2,8 +2,6 @@
 # GLAB 318.1.1: NodeJS Installation and Basics
 
 
-
-
 ## Introduction
 
 NodeJS (or simply Node) is a very popular JavaScript runtime that enables developers to create JavaScript applications outside of the context of a web browser. This lab will walk you through the steps of installing Node and the Node Package Manager (npm) on Windows.
@@ -18,8 +16,8 @@ NodeJS (or simply Node) is a very popular JavaScript runtime that enables develo
 - Install packages.
 - Run a program.
   
-## Summary of lesson
-#### (Guiding instructional code was written by an instructor and I revised with my personal note.) 
+## Key take away
+- The guiding instructional code was written by an instructor, and I revised it with my personal notes.
 
 ```rb
 
@@ -42,19 +40,26 @@ NodeJS (or simply Node) is a very popular JavaScript runtime that enables develo
 
 // ---------------------------------[Setup]
 
-// --> (?) THE BIG 3 ------- runningTheServer
-// 1. use require statements to import all of the needed depend/libs for the app.
-const express = require("express");
-const bodyParser = require('body-parser');     # Optional - We use this when we have a lot of data. 
-const PORT = process.env.PORT || "3000";
-const app = express();
-// 2. initializing express to run
+// --> (?) THE BIG 5 ------- Basic server syntax 
 
-// ----------------------------{MiddleWare}-----------
+// 1. Use require statements to import all of the needed depend/libs for the app.
+
+const express = require("express");
+const bodyParser = require('body-parser');      # Optional - We use this when we have a lot of data. 
+const PORT = process.env.PORT || "3000";        # Set up a port environment. 
+
+
+// 2. Initializing express to run
+
+const app = express();                          # Init express. 
+
+
+// 3. Set up middleware
 
 app.use(body-parser)
 
-// --------------------------------------------------
+
+// 4. Create endpoints / route handlers 
 
 app.get("/", (req,res) => {
     res.send("This is the homepage")
@@ -68,17 +73,22 @@ app.get("/about/:title", (req, res) => {
 app.get("/test", (req, res) => {
     res.send("This is a TEST")
 });
+
 // ---------------------------------[REST ROUTES]
 
 // app.post()
 // HTTPMETHODS = get, post, put ,delete
-// ---------------------------------------[Routes]
+
+
+// 5. Listen on a port
 
 app.listen(PORT, (req, res) => {
   console.log(`Currently Listening on ${PORT}`);
 });
-// Creating the express server. and the port to run it on
+
 ```
+
+## Summary of lesson
 
 ```rb
 // Node 
@@ -133,7 +143,3 @@ app.listen(PORT, (req, res) => {
 
 // Create Server
 ```
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
