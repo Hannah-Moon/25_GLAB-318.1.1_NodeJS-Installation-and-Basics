@@ -34,7 +34,9 @@ NodeJS (or simply Node) is a very popular JavaScript runtime that enables develo
  → change "start" script in package.json: "dev": "nodemon index" # consistently watch it.
 
  → open two terminals
- → npm start            # monitor realtime update 
+ → npm start            # short for "node index.js" 
+ → OR npm run dev       # run everything and starts a server
+
 
 // ---------------------------------[ejs template]
  → npm install ejs      # install ijs module
